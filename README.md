@@ -11,9 +11,9 @@ Agent skill: turn **git commit history** for a UI component into a **browsable [
 **Option A — skills CLI** (if your environment supports installing from a path or git URL):
 
 ```bash
-npx skills add /path/to/skill-retroactive-uifork
-# or after publishing:
-# npx skills add <your-github-org>/skill-retroactive-uifork
+npx skills add sambernhardt/skill-retroactive-uifork
+# or from a local clone:
+# npx skills add /path/to/skill-retroactive-uifork
 ```
 
 **Option B — copy** the `skills/retroactive-uifork/` folder into your repo’s agent skills directory.
